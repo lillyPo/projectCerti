@@ -16,3 +16,11 @@ git status
 git commit 
 si apre una finestra in cui si puo pulire tutto quello
 che e' commentato ed aggiunge il commento.
+
+5.- Eliminare un file
+- Primero lo eliminiamo del cartella locale
+   rm nomeFile
+-  Git lo capta tramite il comando ==> git status
+- Per indicare a git di cancellarlo dal sistema
+   git rm nomeFile
+- Poi fare un commit in modo tale che venga cancellato il file.
