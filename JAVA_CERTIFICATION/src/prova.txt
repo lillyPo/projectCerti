@@ -1,0 +1,18 @@
+Lavorando con il terminale - GIT
+=================================
+- Posizionarse nella cartella del project>
+
+1.- To add file  ==> working directory locale
+touch nomeFile
+
+2.- stagging index ==> area temporale
+git add nomeFile
+(appare il file con un + ==> mean che e' in stagging )
+
+3.- see file da commitare
+git status
+
+4.- Per mandare il file da stagging to remote
+git commit 
+si apre una finestra in cui si puo pulire tutto quello
+che e' commentato ed aggiunge il commento.
